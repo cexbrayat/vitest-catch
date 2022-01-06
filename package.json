@@ -1,0 +1,19 @@
+{
+  "name": "vitest-catch",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "vitest": "vitest src/main.vitest.spec.ts",
+    "jest": "jest src/main.jest.spec.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "27.4.0",
+    "jest": "27.4.7",
+    "ts-jest": "27.1.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vitest": "0.0.135"
+  }
+}
